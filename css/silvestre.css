@@ -2,7 +2,17 @@ body,
 html {
     width: 100%;
     height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000;
 }
+
+a{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/*Header*/
 
 .voorblad{
     display: table;
@@ -19,6 +29,18 @@ html {
     -o-background-size: cover;
 }
 
+.patern{
+    display: table;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
 .titel{
     display: table-cell;
     text-transform: uppercase;
@@ -28,19 +50,105 @@ html {
 
 .maintitel{
     font-size: 70px;
+    letter-spacing: 20px;
+    font-weight: 700;
+}
+
+.subtitel{
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight: 300;
+}
+
+@media(max-width:767px) {
+    .maintitel{
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    .subtitel{
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+}
+
+/*Navigation-Navigation-Navigation*/
+
+.navbar-default{
+    text-transform: uppercase;
+    background-color: black;
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-brand{
+    color: white;
+    font-weight: 300;
+}
+.dikker{
+    font-weight: 500;
+}
+.navbar-default .navbar-brand:focus {
+    outline: 0;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: #858585;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus{
+    color: #858585;
+}
+.navbar-default .nav li.active a {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    border-radius: 10px; 
+    color: black;
+    background-color: #858585;
+}
+.navbar-default .nav li.active a:focus {
+    color: black;
+    background-color: #858585;
+}
+.navbar-default .nav li.active a:hover {
+    color: black;
+    background-color: #858585;
 }
 
 @media(min-width:767px) {
     .navbar {
+        background-color: transparent;
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
     .top-nav-collapse {
-        padding: 0;
+        padding: 10px 0;
+        background: #000;
     }
+    /*.navbar-default .navbar-nav>li>a{
+        border-width: 5px;
+        border-style: solid;
+        border-color: hidden;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }*/
 }
 
 
@@ -48,22 +156,26 @@ html {
 
 
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
+
+
+
+
+
+/*Sections*/
 
 #about {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
     text-align: center;
-    background: #fff;
+    background: #000;
+    color: #fff;
 }
 
 #portfolio {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    /*background: #eee;*/
 }
 
 #contact {
