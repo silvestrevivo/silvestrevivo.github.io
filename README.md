@@ -1,2 +1,2 @@
 # silvestrevivo.github.io
-Peronal Portfolio
+Personal website | Front-end developer | http://silvestrevivo.github.io/

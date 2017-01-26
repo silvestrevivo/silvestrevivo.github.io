@@ -1,0 +1,306 @@
+.blue {
+  background-color: #005C89; }
+
+.lblue {
+  background-color: #6EBDEA; }
+
+.green {
+  background-color: #4FAF47; }
+
+.lgreen {
+  background-color: #8EE487; }
+
+.orange {
+  background-color: #FF8C3D; }
+
+.lorange {
+  background-color: #FFBF93; }
+
+.white {
+  background-color: white; }
+
+.grey {
+  background-color: #6d6d6d; }
+
+.lgrey {
+  background-color: #c6c6c6; }
+
+.xlgrey {
+  background-color: #eeeeee; }
+
+.black {
+  background-color: #444444; }
+
+.facebook {
+  background-color: #3b5998; }
+
+.twitter {
+  background-color: #00aced; }
+
+.white {
+  background-color: white; }
+
+.youtube {
+  background-color: #bb0000; }
+
+.instagram {
+  background-color: #517fa4; }
+
+.linkedin {
+  background-color: #0077b5; }
+
+.whatsapp {
+  background-color: #43d854; }
+
+.mail {
+  background-color: #6EBDEA; }
+
+.blue-text {
+  color: #005C89; }
+
+.lblue-text {
+  color: #6EBDEA; }
+
+.green-text {
+  color: #4FAF47; }
+
+.lgreen-text {
+  color: #8EE487; }
+
+.orange-text {
+  color: #FF8C3D; }
+
+.lorange {
+  color: #FFBF93; }
+
+.white-text {
+  color: white; }
+
+.grey-text {
+  color: #6d6d6d; }
+
+.lgrey-text {
+  color: #c6c6c6; }
+
+.xlgrey-text {
+  color: #eeeeee; }
+
+.black-text {
+  color: #444444; }
+
+p {
+  font-size: 12px;
+  line-height: 1.4; }
+  @media screen and (min-width: 480px) {
+    p {
+      font-size: 16px;
+      line-height: 1.4; } }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 14px;
+      line-height: 1.4; } }
+  @media screen and (min-width: 992px) {
+    p {
+      font-size: 16px;
+      line-height: 1.4; } }
+  @media screen and (min-width: 1200px) {
+    p {
+      font-size: 18px;
+      line-height: 1.4; } }
+
+h1 {
+  font-size: 30px;
+  line-height: 1.1; }
+  @media screen and (min-width: 480px) {
+    h1 {
+      font-size: 34px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 32px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 992px) {
+    h1 {
+      font-size: 34px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 1200px) {
+    h1 {
+      font-size: 36px;
+      line-height: 1.1; } }
+
+h2 {
+  font-size: 26px;
+  line-height: 1.1; }
+  @media screen and (min-width: 480px) {
+    h2 {
+      font-size: 28px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 26px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 992px) {
+    h2 {
+      font-size: 28px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 1200px) {
+    h2 {
+      font-size: 30px;
+      line-height: 1.1; } }
+
+h3 {
+  font-size: 20px;
+  line-height: 1.1; }
+  @media screen and (min-width: 480px) {
+    h3 {
+      font-size: 22px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 768px) {
+    h3 {
+      font-size: 20px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 992px) {
+    h3 {
+      font-size: 22px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 1200px) {
+    h3 {
+      font-size: 24px;
+      line-height: 1.1; } }
+
+h4 {
+  font-size: 16px;
+  line-height: 1.1; }
+  @media screen and (min-width: 480px) {
+    h4 {
+      font-size: 16px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 768px) {
+    h4 {
+      font-size: 14px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 992px) {
+    h4 {
+      font-size: 16px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 1200px) {
+    h4 {
+      font-size: 18px;
+      line-height: 1.1; } }
+
+h5 {
+  font-size: 12px;
+  line-height: 1.1; }
+  @media screen and (min-width: 480px) {
+    h5 {
+      font-size: 13px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 768px) {
+    h5 {
+      font-size: 12px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 992px) {
+    h5 {
+      font-size: 13px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 1200px) {
+    h5 {
+      font-size: 14px;
+      line-height: 1.1; } }
+
+h6 {
+  font-size: 10px;
+  line-height: 1.1; }
+  @media screen and (min-width: 480px) {
+    h6 {
+      font-size: 11px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 768px) {
+    h6 {
+      font-size: 20px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 992px) {
+    h6 {
+      font-size: 11px;
+      line-height: 1.1; } }
+  @media screen and (min-width: 1200px) {
+    h6 {
+      font-size: 12px;
+      line-height: 1.1; } }
+
+html, body {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased; }
+
+ul {
+  padding: 0; }
+
+i {
+  vertical-align: middle; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+a, a:active, a:focus, a:hover, a:visited, a:link {
+  outline: 0;
+  text-decoration: none; }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media screen and (max-width: 768px) {
+    .row-eq-height {
+      display: block; } }
+
+.header {
+  width: 100%;
+  float: left;
+  margin-bottom: 1%; }
+
+.logo {
+  float: left; }
+
+@media screen and (min-width: 640px) {
+  .nav ul li {
+    width: auto;
+    float: left;
+    margin: 5px 5px; } }
+h1 {
+  color: #205a20; }
+
+h3 {
+  color: #9b6400; }
+
+.footer {
+  float: left;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+.copyright {
+  text-align: center;
+  float: left;
+  width: 100%; }
+
+input, textarea {
+  outline-color: #6d6d6d;
+  outline-width: medium; }
+
+.divider {
+  height: 2px;
+  border: none;
+  color: black;
+  background-color: black;
+  margin: 15px 25px; }
+  @media screen and (max-width: 1200px) {
+    .divider {
+      margin: 15px 50px; } }
+  @media screen and (max-width: 768px) {
+    .divider {
+      height: 1px;
+      margin: 10px 20px; } }
