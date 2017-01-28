@@ -1,14 +1,5 @@
-.blue {
-  background-color: #005C89; }
-
-.lblue {
-  background-color: #6EBDEA; }
-
-.green {
-  background-color: #4FAF47; }
-
-.lgreen {
-  background-color: #8EE487; }
+.yellow {
+  background-color: #f0db4f; }
 
 .orange {
   background-color: #FF8C3D; }
@@ -31,41 +22,8 @@
 .black {
   background-color: #444444; }
 
-.facebook {
-  background-color: #3b5998; }
-
-.twitter {
-  background-color: #00aced; }
-
-.white {
-  background-color: white; }
-
-.youtube {
-  background-color: #bb0000; }
-
-.instagram {
-  background-color: #517fa4; }
-
-.linkedin {
-  background-color: #0077b5; }
-
-.whatsapp {
-  background-color: #43d854; }
-
-.mail {
-  background-color: #6EBDEA; }
-
-.blue-text {
-  color: #005C89; }
-
-.lblue-text {
-  color: #6EBDEA; }
-
-.green-text {
-  color: #4FAF47; }
-
-.lgreen-text {
-  color: #8EE487; }
+.yellow-text {
+  color: #f0db4f; }
 
 .orange-text {
   color: #FF8C3D; }
@@ -287,14 +245,46 @@ body {
   -ms-background-size: cover;
   background-size: cover; }
   .voorblad .patern {
-    display: table;
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
-    height: 100%;
-    width: 100%; }
-    .voorblad .patern .titel {
-      display: table-cell;
-      vertical-align: middle; }
+    height: 100%; }
+    .voorblad .patern .verticalmiddle {
+      width: 100%;
+      height: 30%;
+      display: table; }
+      .voorblad .patern .verticalmiddle .title {
+        display: table-cell;
+        vertical-align: middle; }
+        .voorblad .patern .verticalmiddle .title h1 {
+          padding: 0 10%;
+          -webkit-text-shadow: 3px 3px 5px #444444;
+          -moz-text-shadow: 3px 3px 5px #444444;
+          -o-text-shadow: 3px 3px 5px #444444;
+          text-shadow: 3px 3px 5px #444444;
+          margin-bottom: 40px; }
+        .voorblad .patern .verticalmiddle .title a {
+          border: 2px solid #f0db4f;
+          padding: 12px 30px;
+          background-color: rgba(109, 109, 109, 0.2);
+          color: #f0db4f;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .voorblad .patern .verticalmiddle .title a:hover {
+            color: #FF8C3D;
+            background-color: rgba(109, 109, 109, 0.5);
+            border-color: #FF8C3D; }
+    .voorblad .patern .dates {
+      height: 70%;
+      position: relative; }
+      .voorblad .patern .dates .aboutme {
+        position: absolute;
+        right: 2%;
+        bottom: 15%;
+        padding: 15px 25px;
+        background-color: #f0db4f; }
 
 .footer {
   float: left;
