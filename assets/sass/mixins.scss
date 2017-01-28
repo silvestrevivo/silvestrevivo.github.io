@@ -41,6 +41,14 @@
 	}
 }
 
+//BACKGROUND-IMAGE usage - @include background-size(cover)
+@mixin background-size($type) {
+  -webkit-background-size: $type;
+     -moz-background-size: $type;
+      -ms-background-size: $type;
+          background-size: $type;
+}
+
 //BORDER-RADIUS  Usage - @include border-radius(10px)
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

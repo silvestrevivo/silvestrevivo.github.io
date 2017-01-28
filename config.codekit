@@ -29,6 +29,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/img\/background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 313809,
+		"inputAbbreviatedPath": "\/assets\/img\/background.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/pattern.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2805,
+		"inputAbbreviatedPath": "\/assets\/img\/pattern.png",
+		"outputAbbreviatedPath": "\/assets\/img\/pattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
