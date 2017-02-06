@@ -29,6 +29,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/img\/background-dh-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 135317,
+		"inputAbbreviatedPath": "\/assets\/img\/background-dh-01.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/background-dh-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/background.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
