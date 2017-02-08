@@ -22,6 +22,9 @@
 .black {
   background-color: #444444; }
 
+.green {
+  background-color: #2b7b4a; }
+
 .yellow-text {
   color: #f0db4f; }
 
@@ -45,6 +48,9 @@
 
 .black-text {
   color: #444444; }
+
+.green-text {
+  color: #2b7b4a; }
 
 p {
   font-size: 12px;
@@ -206,15 +212,6 @@ a, a:active, a:focus, a:hover, a:visited, a:link {
   outline: 0;
   text-decoration: none; }
 
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  @media screen and (max-width: 768px) {
-    .row-eq-height {
-      display: block; } }
-
 .header {
   width: 100%;
   float: left;
@@ -228,63 +225,68 @@ a, a:active, a:focus, a:hover, a:visited, a:link {
     width: auto;
     float: left;
     margin: 5px 5px; } }
-html {
-  height: 100%; }
-
 body {
-  height: 100%;
-  background-color: #6d6d6d;
-  font-family: "Ubuntu", sans-serif; }
+  background-color: #2b7b4a;
+  font-family: "Allerta Stencil", sans-serif; }
 
-.voorblad {
-  width: 100%;
+.background-image {
   height: 100%;
+  width: 100%;
+  position: absolute;
   background: url(../img/background-dh-01.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
-  background-size: cover; }
-  .voorblad .patern {
+  background-size: cover;
+  opacity: 0;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -ms-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
+  z-index: -1; }
+  .background-image.no-opacity {
+    opacity: 1; }
+  .background-image .pattern {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    right: 2%;
+    bottom: 30px;
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
-    height: 100%; }
-    .voorblad .patern .verticalmiddle {
-      width: 100%;
-      height: 30%;
-      display: table; }
-      .voorblad .patern .verticalmiddle .title {
-        display: table-cell;
-        vertical-align: middle; }
-        .voorblad .patern .verticalmiddle .title h1 {
-          padding: 0 10%;
-          -webkit-text-shadow: 3px 3px 5px #444444;
-          -moz-text-shadow: 3px 3px 5px #444444;
-          -o-text-shadow: 3px 3px 5px #444444;
-          text-shadow: 3px 3px 5px #444444;
-          margin-bottom: 40px; }
-        .voorblad .patern .verticalmiddle .title a {
-          border: 2px solid white;
-          padding: 12px 30px;
-          background-color: rgba(109, 109, 109, 0.2);
-          color: white;
-          -webkit-transition: all 0.3s ease;
-          -moz-transition: all 0.3s ease;
-          -ms-transition: all 0.3s ease;
-          -o-transition: all 0.3s ease;
-          transition: all 0.3s ease; }
-          .voorblad .patern .verticalmiddle .title a:hover {
-            color: #FF8C3D;
-            background-color: rgba(109, 109, 109, 0.5);
-            border-color: #FF8C3D; }
-    .voorblad .patern .dates {
-      height: 70%;
-      position: relative; }
-      .voorblad .patern .dates .aboutme {
-        position: absolute;
-        right: 2%;
-        bottom: 15%;
-        padding: 15px 25px;
-        background-color: white; }
+    opacity: 0;
+    -webkit-transition: all 3.5s ease-in-out;
+    -moz-transition: all 3.5s ease-in-out;
+    -ms-transition: all 3.5s ease-in-out;
+    -o-transition: all 3.5s ease-in-out;
+    transition: all 3.5s ease-in-out; }
+    .background-image .pattern.no-opacity {
+      opacity: 1; }
+
+header {
+  margin-top: 3%; }
+
+footer {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 3.5s ease-in-out;
+  -moz-transition: all 3.5s ease-in-out;
+  -ms-transition: all 3.5s ease-in-out;
+  -o-transition: all 3.5s ease-in-out;
+  transition: all 3.5s ease-in-out; }
+  footer.no-opacity {
+    opacity: 1; }
+  footer ul {
+    margin-bottom: 0; }
+    footer ul li {
+      margin: 0 5px;
+      cursor: pointer; }
+      footer ul li p {
+        margin-bottom: 0; }
 
 .footer {
   float: left;

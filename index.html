@@ -20,6 +20,7 @@
 
 	<!-- Custom Fonts/Design -->
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
 
     <!-- Custom Fonts/Design -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -34,30 +35,54 @@
 </head>
 <body>
 
-	<header class="voorblad">
-				<div class="patern">
-					<div class="verticalmiddle">
-						<div class="title text-center">
-							<h1 class="white-text">Silvestre Vivo | Front-end developer for hiring</h1>
-							<a class="button" href=" silvestrevivo.github.io/includes/CV-SilvestreVivo .pdf" target="_blank">PDF English</a>
-						</div>
-					</div>
-					<div class="container dates">
-						<div class="row">
-							<div class="col-sm-8">
-								<!-- texto -->
-							</div>
-							<button type="button" class="aboutme btn pull-right" data-toggle="modal" data-target="#myCV">About me</button>
-						</div>
-					</div>
+	<!-- background and pattern -->
+	<div class="background-image"><div class="pattern"></div></div>
+
+
+	<div class="container">
+
+		<header class="animated hide">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="white-text text-center">Silvestre Vivo < > Front-end Developer</h1>
 				</div>
-	</header>
+			</div>
+		</header>
+
+		<!-- <div id="main">
+			<row>
+				<div class="col-sm-6 white-text">
+					<ul class="list-unstyled">
+						<li><p>HTML</p></li>
+						<li><p>CSS</p></li>
+						<li><p>JAVAScript</p></li>
+						<li><p>HTML</p></li>
+						<li><p>HTML</p></li>
+						<li><p>HTML</p></li>
+						<li><p>HTML</p></li>
+						<li><p>HTML</p></li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<h2 class="white-text">Web Projects</h2>
+				</div>
+			</row>
+		</div> -->
+
+	</div>
 
 
 
+<footer>
+	<ul class="list-unstyled list-inline text-center">
+		<li data-toggle="modal" data-target="#aboutme"><p class="white-text">About me</p></li>
+		<li data-toggle="modal" data-target="#contact"><p class="white-text">Contact</p></li>
+	</ul>
+</footer>
 
-	<!-- Modal -->
-<div id="myCV" class="modal fade" role="dialog">
+
+	<!-- Modal's -->
+<div id="aboutme" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
@@ -85,6 +110,34 @@
 
 </div>
 
+
+<div id="contact" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leave me a message</h4>
+      </div>
+      <div class="modal-body">
+				<div class="row">
+					<div class="col-xs-12">
+						<form action="">
+							<label for="">Name</label>
+							<input type="text" name="" value="">
+						</form>
+					</div>
+				</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
 
 
