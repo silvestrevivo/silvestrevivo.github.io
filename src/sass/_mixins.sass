@@ -197,6 +197,14 @@ $lg: 1200px
 	-o-transform: translate($val)
 	transform: translate($val)
 
+//TRANSLATE3D   -usage +translate3d(0, 500px, 0)
+@mixin translate3d($val1, $val2, $val3)
+	-webkit-transform: translate3d($val1, $val2, $val3)
+	-moz-transform: translate3d($val1, $val2, $val3)
+	-ms-transform: translate3d($val1, $val2, $val3)
+	-o-transform: translate3d($val1, $val2, $val3)
+	transform: translate3d($val1, $val2, $val3)
+
 //TRANSFORM-ORIGIN    -usage +transform-origin(x-axis y-axis z-axis)
 @mixin transform-origin($val)
 	-webkit-transform-origin: $val
@@ -224,3 +232,10 @@ $lg: 1200px
 	-moz-perspective-origin: $val
 	-ms-perspective-origin: $val
 	perspective-origin: $val
+
+//BACKGROUND SIZE  -usage +background-size(cover)
+@mixin background-size($val)
+	-webkit-background-size: $val
+	-moz-background-size: $val
+	-o-background-size: $val
+	background-size: $val
