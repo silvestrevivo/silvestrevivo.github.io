@@ -385,21 +385,54 @@ body
 // =============================================================================
 #about
   //min-height: 650px
-  //display: inline-block
-  //width: 100%
-  //border: 1px solid red
   .bg-about
-    background: url('/dist/img/reza.jpg') no-repeat center center
+    background: url("/dist/img/bnprofiel.jpg") no-repeat center center
     +background-size(cover)
-    //border: 1px solid blue
-    height: 650px
+    +transition(all .5s ease)
     // position: relative
     // padding: 0
     // margin: 0
-    // min-height: 660px
-    // width: 100%
-    // height: 100%
-    // float: left
+    min-height: 670px
+    //width: 100%
+    //height: 100%
+    //float: left
+    &:hover
+      background: url("/dist/img/colorprofiel.jpg") no-repeat center center
+      +background-size(cover)
+.wrap-about
+  height: 100%
+  width: 100%
+  position: relative
+  display: block
+  min-height: 480px
+.wrap-about .w-content
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translateX(-50%) translateY(-50%)
+  -webkit-transform: translateX(-50%) translateY(-50%)
+  -moz-transform: translateX(-50%) translateY(-50%)
+  -ms-transform: translateX(-50%)
+.wrap-about .w-content td
+  font-size: 13px
+  font-weight: 300
+.wrap-about .w-content td.title
+  padding-right: 10px
+  font-weight: 500
+.wrap-about .w-content td.break
+  padding-right: 15px
+.wrap-about .w-content tr
+  height: 35px
+.wrap-about .head-about
+  font-size: 13px
+  line-height: 34px
+  letter-spacing: 0.5px
+  font-weight: 300
+.wrap-about .name
+  margin: 40px 0 20px 0
+  font-size: 14px
+
+
 
 
 
@@ -679,38 +712,38 @@ ul.portfolio-image li .desc
   color: #5f5f5f
 /*---------- f. quote -----------*/
 
-.wrap-about
-  height: 100%
-  width: 100%
-  position: relative
-  display: block
-  min-height: 480px
-.wrap-about .w-content
-  position: absolute
-  left: 50%
-  top: 50%
-  transform: translateX(-50%) translateY(-50%)
-  -webkit-transform: translateX(-50%) translateY(-50%)
-  -moz-transform: translateX(-50%) translateY(-50%)
-  -ms-transform: translateX(-50%)
-.wrap-about .w-content td
-  font-size: 13px
-  font-weight: 300
-.wrap-about .w-content td.title
-  padding-right: 10px
-  font-weight: 500
-.wrap-about .w-content td.break
-  padding-right: 15px
-.wrap-about .w-content tr
-  height: 35px
-.wrap-about .head-about
-  font-size: 13px
-  line-height: 34px
-  letter-spacing: 0.5px
-  font-weight: 300
-.wrap-about .name
-  margin: 40px 0 20px 0
-  font-size: 14px
+// .wrap-about
+//   height: 100%
+//   width: 100%
+//   position: relative
+//   display: block
+//   min-height: 480px
+// .wrap-about .w-content
+//   position: absolute
+//   left: 50%
+//   top: 50%
+//   transform: translateX(-50%) translateY(-50%)
+//   -webkit-transform: translateX(-50%) translateY(-50%)
+//   -moz-transform: translateX(-50%) translateY(-50%)
+//   -ms-transform: translateX(-50%)
+// .wrap-about .w-content td
+//   font-size: 13px
+//   font-weight: 300
+// .wrap-about .w-content td.title
+//   padding-right: 10px
+//   font-weight: 500
+// .wrap-about .w-content td.break
+//   padding-right: 15px
+// .wrap-about .w-content tr
+//   height: 35px
+// .wrap-about .head-about
+//   font-size: 13px
+//   line-height: 34px
+//   letter-spacing: 0.5px
+//   font-weight: 300
+// .wrap-about .name
+//   margin: 40px 0 20px 0
+//   font-size: 14px
 /*---------- g. contact -----------*/
 #contact
   padding: 120px 0 200px 0

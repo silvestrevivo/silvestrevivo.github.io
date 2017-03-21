@@ -201,7 +201,7 @@
 
 //Plugin equal height
 function equalHeight(){
-	if(jQuery(window).width() > 768	){
+	if(jQuery(window).width() > 992	){
 		jQuery('.row-eq-height').each(function(){
 			var height = [];
 			jQuery(this).children().each(function(i){
