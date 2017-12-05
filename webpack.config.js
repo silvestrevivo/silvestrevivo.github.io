@@ -17,7 +17,7 @@ module.exports = {
         // Path to output
         filename: 'bundle.js',
         // This is the result, bundle.js
-        publicPath: '/',
+        publicPath: '/'
         // Where the files are available in the server
     },
 
@@ -27,7 +27,7 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
-        stats: 'errors-only',
+        stats: 'errors-only'
     },
     // Webpack Server
 
@@ -37,8 +37,8 @@ module.exports = {
                 test: /\.css$/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
-                    use: ['css-loader', 'postcss-loader'],
-                }),
+                    use: ['css-loader', 'postcss-loader']
+                })
             },
             {
                 test: /\.sass$/,
@@ -46,22 +46,25 @@ module.exports = {
                     fallback: 'style-loader',
                     use: [
                         { loader: 'css-loader', options: { sourceMap: true } },
-                        { loader: 'postcss-loader', options: { sourceMap: true } },
-                        { loader: 'sass-loader', options: { sourceMap: true } },
-                    ],
-                }),
+                        {
+                            loader: 'postcss-loader',
+                            options: { sourceMap: true }
+                        },
+                        { loader: 'sass-loader', options: { sourceMap: true } }
+                    ]
+                })
             },
             {
                 test: /\.js$/,
                 include: path.resolve(__dirname, 'src'),
                 exclude: /(node_modules)/,
-                loader: 'babel-loader',
+                loader: 'babel-loader'
             },
             {
                 test: /\.(png|jpe?g|gif|svg)(\?[\s\S]+)?$/,
-                use: 'file-loader?name=bgimages/[name].[ext]',
-            },
-        ],
+                use: 'file-loader?name=bgimages/[name].[ext]'
+            }
+        ]
     },
     plugins: [
         new ExtractTextPlugin('style.css'),
@@ -69,11 +72,11 @@ module.exports = {
         new BrowserSyncPlugin({
             host: 'localhost',
             port: 3000,
-            proxy: 'http://localhost:8080/',
-        }),
-        new webpack.ProvidePlugin({
-            jQuery: 'jquery',
-            $: 'jquery',
-        }),
-    ],
+            proxy: 'http://localhost:8080/'
+        })
+        // new webpack.ProvidePlugin({
+        //     jQuery: 'jquery',
+        //     $: 'jquery',
+        // }),
+    ]
 };
