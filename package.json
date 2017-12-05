@@ -19,8 +19,7 @@
     "bugs": {
         "url": "https://github.com/silvestrevivo/webpack-starter/issues"
     },
-    "homepage":
-        "https://github.com/silvestrevivo/silvestrevivo.github.io/dist/index.html",
+    "homepage": "http://silvestrevivo.github.io/dist/index.html",
     "devDependencies": {
         "autoprefixer": "^7.1.6",
         "babel-core": "^6.26.0",
