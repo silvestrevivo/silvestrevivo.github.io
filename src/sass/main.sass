@@ -2,6 +2,27 @@
 // FRONT PAGE
 // =============================================================================
 
+.main-content
+    max-width: 1200px
+    margin: 0 auto
+    min-height: 100vh
+    box-shadow: 0px 2px 11px $black
+    padding: 3em 4%
+
+header
+    text-align: right
+    h1
+        text-transform: uppercase
+        font-size: 5em
+        font-weight: 900
+        +linear-gradient(to right, $grey, $black)
+        display: inline-block
+        -webkit-background-clip: text
+        color: transparent
+        transition: all .2s ease-in-out
+        &:hover
+            transform: translateY(-3px)
+            text-shadow: 0 .5rem .5rem rgba($black, 0.3)
 
 
 
