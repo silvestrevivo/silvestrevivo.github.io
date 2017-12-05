@@ -1,7 +1,7 @@
 {
-    "name": "webpack-starter",
+    "name": "silvestrevivo.github.io",
     "version": "1.0.0",
-    "description": "webpack starter for general projects, for react too",
+    "description": "Portfolio CV-resume",
     "main": "index.js",
     "scripts": {
         "build": "webpack",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/silvestrevivo/webpack-starter"
+        "url": "https://github.com/silvestrevivo/silvestrevivo.github.io"
     },
     "keywords": ["webpack", "starter", "react"],
     "author": "@silvestrevivo",
@@ -19,7 +19,7 @@
     "bugs": {
         "url": "https://github.com/silvestrevivo/webpack-starter/issues"
     },
-    "homepage": "http://silvestrevivo.github.io/dist/index.html",
+    "homepage": "http://silvestrevivo.github.io/index.html",
     "devDependencies": {
         "autoprefixer": "^7.1.6",
         "babel-core": "^6.26.0",
