@@ -1,3 +1,3 @@
 # silvestrevivo.github.io
 
-Personal portfolio-website | Front-end/React developer | _http://silvestrevivo.github.io/_
+Personal portfolio-website | Front-end / React Developer _http://silvestrevivo.github.io/_
