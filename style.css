@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background-image: url('./images/Cover.jpg');
+  background-position: center;
+  background-size: cover;
+  border: .5px solid transparent;
+}
+
+.container{
+  box-sizing: inherit;
+  text-align: center;
+  color: #dadada;
+  font-family: 'Lato', sans-serif;
+  margin-top: 18%;
+  letter-spacing: 2.5px;
+}
+
+.container h2{
+  font-weight: 300;
+  letter-spacing: 3.5px;
+}
