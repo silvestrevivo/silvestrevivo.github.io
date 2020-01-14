@@ -1,3 +1,3 @@
 # silvestrevivo.github.io
 
-Personal portfolio-website | Front-end Developer | ReactJS, React Native, Redux, GraphQL _http://silvestrevivo.github.io/_
+Personal portfolio-website | Front-end Developer | React, Redux, Svelte, TypeScript, Node, GraphQL _https://silvestrevivo.github.io/_
