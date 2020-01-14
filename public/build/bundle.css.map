@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { fade, fly } from \"svelte/transition\";\n  import { onMount } from \"svelte\";\n\n  let visible = false;\n\n  onMount(() => {\n    visible = true;\n  });\n</script>\n\n<style>\n  main {\n    text-align: center;\n    height: 60vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n\n  .container {\n    color: #dadada;\n    letter-spacing: 2.5px;\n  }\n\n  h2 {\n    font-weight: 300;\n    letter-spacing: 3.5px;\n  }\n\n  @media only screen and (max-width: 700px) {\n    .container {\n      letter-spacing: 1.5px;\n    }\n\n    h1 {\n      font-size: 25px;\n    }\n\n    h2 {\n      letter-spacing: 1.5px;\n      font-size: 20px;\n    }\n  }\n\n  @media only screen and (max-width: 500px) {\n    h1 {\n      font-size: 20px;\n    }\n\n    h2 {\n      letter-spacing: 1px;\n      font-size: 15px;\n    }\n  }\n</style>\n\n<main>\n  {#if visible}\n    <div class=\"container\" transition:fade={{ delay: 500, duration: 2000 }}>\n      <h1>Silvestre Vivo | Front-end Developer</h1>\n      <h2 transition:fly={{ y: 500, duration: 2000 }}>Coming soon...</h2>\n    </div>\n  {/if}\n</main>\n"
+  ],
+  "names": [],
+  "mappings": "AAYE,IAAI,eAAC,CAAC,AACJ,UAAU,CAAE,MAAM,CAClB,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,AACrB,CAAC,AAED,UAAU,eAAC,CAAC,AACV,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,KAAK,AACvB,CAAC,AAED,EAAE,eAAC,CAAC,AACF,WAAW,CAAE,GAAG,CAChB,cAAc,CAAE,KAAK,AACvB,CAAC,AAED,OAAO,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzC,UAAU,eAAC,CAAC,AACV,cAAc,CAAE,KAAK,AACvB,CAAC,AAED,EAAE,eAAC,CAAC,AACF,SAAS,CAAE,IAAI,AACjB,CAAC,AAED,EAAE,eAAC,CAAC,AACF,cAAc,CAAE,KAAK,CACrB,SAAS,CAAE,IAAI,AACjB,CAAC,AACH,CAAC,AAED,OAAO,IAAI,CAAC,MAAM,CAAC,GAAG,CAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzC,EAAE,eAAC,CAAC,AACF,SAAS,CAAE,IAAI,AACjB,CAAC,AAED,EAAE,eAAC,CAAC,AACF,cAAc,CAAE,GAAG,CACnB,SAAS,CAAE,IAAI,AACjB,CAAC,AACH,CAAC"
+}
