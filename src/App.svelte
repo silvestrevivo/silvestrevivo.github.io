@@ -1,3 +1,14 @@
+<script>
+  import { fade, fly } from "svelte/transition";
+  import { onMount } from "svelte";
+
+  let visible = false;
+
+  onMount(() => {
+    visible = true;
+  });
+</script>
+
 <style>
   main {
     text-align: center;
@@ -45,8 +56,10 @@
 </style>
 
 <main>
-  <div class="container">
-    <h1>Silvestre Vivo | Front-end Developer</h1>
-    <h2>Coming soon...</h2>
-  </div>
+  {#if visible}
+    <div class="container" transition:fade={{ delay: 500, duration: 2000 }}>
+      <h1>Silvestre Vivo | Front-end Developer</h1>
+      <h2 transition:fly={{ y: 500, duration: 2000 }}>Coming soon...</h2>
+    </div>
+  {/if}
 </main>
