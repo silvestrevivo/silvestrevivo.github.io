@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 html, body {
 	position: relative;
@@ -11,8 +11,12 @@ body {
   padding: 0;
   height: 100vh;
 	box-sizing: border-box;
-	background-image: url('./images/Cover.jpg');
-  background-position: center;
-	background-size: cover;
-	font-family: 'Lato', sans-serif;
+	background-color: #bccac4;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+  margin: inherit;
+  padding: inherit;
 }
