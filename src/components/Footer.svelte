@@ -69,6 +69,18 @@
           <i class="fa fa-twitter" />
         </a>
       </li>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/silvestre-vivo-1a6843bb/"
+          target="_blank">
+          <i class="fa fa-linkedin" />
+        </a>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/user/silvestrevivo/" target="_blank">
+          <i class="fa fa-reddit" />
+        </a>
+      </li>
     </ul>
   </footer>
 {/if}
