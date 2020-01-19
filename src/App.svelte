@@ -1,7 +1,6 @@
 <script>
-  import Main from "./components/Main.svelte";
-  import Footer from "./components/Footer.svelte";
+  import { Router } from "@sveltech/routify";
+  import { routes } from "@sveltech/routify/tmp/routes";
 </script>
 
-<Main />
-<Footer />
+<Router {routes} />
