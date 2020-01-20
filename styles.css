@@ -35,8 +35,12 @@ header {
   font-size: 20px;
 }
 
-.subtitle {
-  padding-top: 20px;
+.subtitle  {
+  padding-top: 25px;
+}
+
+.mail {
+  padding-top: 15px;
 }
 
 .subtitle a {
@@ -61,9 +65,12 @@ header {
   right: 0;
 }
 
-.mail span {
+.mail a {
   padding-top: 10px;
   font-weight: 600;
+  cursor: pointer;
+  color: #023973;
+  text-decoration: none;
 }
 
 .cv {
