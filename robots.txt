@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /SilvestreVivoCV_English.pdf
+Disallow: /SilvestreVivoCV_Nederlands.pdf
+Disallow: /README.md
+
+Sitemap: https://silvestrevivo.github.io/sitemap.xml
+
+
